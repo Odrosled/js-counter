@@ -1,0 +1,96 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: inherit;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px #d5d5d594;
+}
+
+.counter_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  margin-top: 1rem;
+}
+span {
+  font-size: 3rem;
+  background-color: black;
+  padding: 7px 12px;
+  margin-left: 16px;
+  margin-right: 16px;
+  color: #fff;
+  min-width: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+button {
+  color: white;
+  font-size: 3rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0px;
+  padding: 7px 20px;
+  border-radius: 10px;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all;
+  transition-duration: 300ms;
+}
+
+#add {
+  background-color: #22c55e;
+}
+
+#subtract {
+  background-color: #ef4444;
+}
+
+#add:hover {
+  background-color: #16a34a;
+}
+
+#subtract:hover {
+  background-color: #dc2626;
+}
+
+#reset {
+  font-size: 1.6rem;
+  color: #f59e0b;
+  margin-top: 2rem;
+  width: auto;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+#reset:hover {
+  transform: scale(120%);
+}
